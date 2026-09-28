@@ -253,6 +253,8 @@ td b{color:var(--navy)}
 }
 @media screen and (max-width:640px){
   .g3,.g4,.flow,.tl{grid-template-columns:1fr}
+  .slide table:not(.p2){display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .slide table:not(.p2) td,.slide table:not(.p2) th{min-width:120px}
 }
 @page{size:1366px 820px;margin:0}
 @media print{
